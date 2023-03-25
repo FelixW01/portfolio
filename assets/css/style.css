@@ -1,12 +1,19 @@
+:root {
+    --dark: #4D4D4D;
+    --light-blue: #BAD7E9;
+    --dark-blue: #146C94;
+}
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* Header/navbar */
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #4D4D4D;
+    background-color: var(--dark);
     margin: auto;
 }
 .flexbox-header {
@@ -14,25 +21,28 @@
 }
 
 .header h1 {
-    color: white;
-    margin: 15px auto auto 40px;
+    color: var(--dark);
+    margin: 8px auto 15px 0;
     font-size: 2em;
+    background-color: var(--light-blue);
+    padding: 15px 15px 0 60px;
 }
 
 .header nav ul {
     list-style: none;
-    margin: 20px 80px 20px auto;
+    margin: 30px 80px 30px auto;
 }
 
 .navbar ul li {
     display: inline;
-    margin: 20px 25px 20px 15px;
+    margin: 25px 25px 20px 15px;
     font-size: 1.5em;
     color: black;
+    border-bottom: 3px solid var(--light-blue);
 }
 
 a {
-    box-shadow: inset 0 0 0 0 #404258;
+    box-shadow: inset 0 0 0 0 var(--dark);
     color: #54b3d6;
     margin: 0 -.25rem;
     padding: 0 .25rem;
@@ -43,11 +53,11 @@ a:link {
     color: black;
 }
 a:visited {
-    color: white;
+    color: var(--light-blue);
 }
 a:hover {
     box-shadow: inset 200px 0 0 0 #404258;
-    color: white;
+    color: var(--light-blue);
 }
 @media only screen and (max-width: 834px) {
     .navbar ul li {
@@ -57,4 +67,48 @@ a:hover {
     .header {
         justify-content: space-evenly;
     }
+}
+/* top-img */
+.top-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.top-img img {
+    flex-grow: 1;
+    height: 300px;
+}
+.top-img h2 {
+    position: absolute;
+    right: 135px;
+    background-color: var(--light-blue);
+    font-size: 2.5em;
+    padding: 5px;
+    color: #4D4D4D;
+
+}
+/* Main*/
+.about-me {
+    position: relative;
+    display: flex;
+}
+.about-me h1 {
+    color: var(--dark-blue);
+    position: absolute;
+    font-size: 2.25rem;
+    left: 6%;
+    display: block;
+}
+
+aside {
+    width: 75%;
+    padding-left: 2rem;
+    margin-left: 0.5rem;
+    box-shadow: inset 5px 0 5px -5px var(--dark-blue);
+    left: 15%;
+    color: var(--dark-blue);
+    position: absolute;
+    font-size: 1.25rem;
 }
