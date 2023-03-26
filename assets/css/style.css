@@ -84,7 +84,7 @@ a:hover {
 }
 .top-img h2 {
     position: absolute;
-    right: 115px;
+    right: 175px;
     bottom: 48px;
     background-color: var(--light-blue);
     font-size: 2.5em;
@@ -96,6 +96,7 @@ a:hover {
     display: flex;
     height: 200px;
     justify-content: center;
+    margin-bottom: 40px;
 }
 .about-me h1 {
     color: var(--dark-blue);
@@ -111,4 +112,36 @@ aside {
     box-shadow: inset 5px 0 5px -5px var(--dark-blue);
     color: var(--dark-blue);
     font-size: 1.25rem;
+}
+
+/* Work*/
+.work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.work h1 {
+    color: var(--dark-blue);
+    font-size: 2.25rem;
+    display: block;
+    padding-right: 1rem;
+}
+.work-img {
+    overflow:hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    filter: brightness(70%);
+    border: solid 5px var(--light-blue);
+    margin: 5px;
+    width: 48%;
+}
+.work-img:hover {
+    transform: translateY(-0,5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+    filter: brightness(100%);
+}
+.work-img-1 {
+    width: 98%;
+    flex-shrink: 1;
 }
