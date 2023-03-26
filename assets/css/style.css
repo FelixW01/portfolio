@@ -93,16 +93,15 @@ a:hover {
 
 /* Main*/
 .about-me {
-    position: relative;
     display: flex;
     height: 200px;
+    justify-content: center;
 }
 .about-me h1 {
     color: var(--dark-blue);
-    position: absolute;
     font-size: 2.25rem;
-    left: 6%;
     display: block;
+    padding-right: 1rem;
 }
 
 aside {
@@ -110,8 +109,6 @@ aside {
     padding-left: 2rem;
     margin-left: 0.5rem;
     box-shadow: inset 5px 0 5px -5px var(--dark-blue);
-    left: 15%;
     color: var(--dark-blue);
-    position: absolute;
     font-size: 1.25rem;
 }
