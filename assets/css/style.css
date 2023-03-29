@@ -69,6 +69,24 @@ a:visited {
         justify-content: space-evenly;
     }
 }
+@media only screen and (max-width: 390px) {
+    .header h1 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0 0 10px;
+        border-radius: 0;
+        text-align: center;
+    }
+    .header nav ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: .9em;
+        margin: 0 5px 0 5px;
+    }
+}
 /* top-img */
 .top-img {
     display: flex;
@@ -107,16 +125,20 @@ a:visited {
         font-size: 1em;
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 390px) {
     .top-img h2 {
-        right: 117px;
-        font-size: 1em;
+        right: 94px;
+        bottom: 104px;
+        font-size: 1.25em;
+
     }
     .profile-image {
         display: none;
     }
+    .top-img img {
+        margin-bottom: 0;
+    }
 }
-
 /* Main*/
 .about-me {
     display: flex;
@@ -158,6 +180,24 @@ aside {
         display: none;
     }
 }
+@media only screen and (max-width: 390px) {
+    .about-me {
+        align-items: flex-start;
+        margin: 0 0 0 25px;
+    }
+    .about-me h1 {
+        border-bottom: 3px solid var(--dark-blue);
+        padding-right: 48%;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 /* Work*/
 .work {
     display: flex;
@@ -230,6 +270,19 @@ aside {
         margin-bottom: 30px;
     }
 }
+@media only screen and (max-width: 390px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .work h1 {
+        border-bottom: 3px solid var(--dark-blue);
+        padding-right: 67%;
+    }
+}
 /* Contact-me*/
 .contact-me {
     display: flex;
@@ -272,6 +325,26 @@ aside {
     .contact-me h1 {
         border-bottom: 3px solid var(--dark-blue);
         margin: 0 0 0 2.25em;
+    }
+}
+@media only screen and (max-width: 390px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-me h1 {
+        border-bottom: 3px solid var(--dark-blue);
+        padding-right: 40%;
+        margin: 0 auto;
+    }
+    .br {
+        display: none;
+    }
+    .contact-me ul {
+        margin: 36px 0 0 23px;
     }
 }
 /*Questions 
