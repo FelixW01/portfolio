@@ -21,7 +21,7 @@
 }
 
 .header h1 {
-    color: var(--dark);
+    color: var(--light-blue);
     margin: 8px auto 15px 0;
     font-size: 2em;
     background-color: var(--light-blue);
