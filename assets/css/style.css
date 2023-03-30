@@ -45,14 +45,14 @@
 
 a {
     box-shadow: inset 0 0 0 0 var(--dark);
-    color: #54b3d6;
+    color: var(--light-blue);
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 a:link {
     text-decoration: none !important;
-    color: var(--black);
+    color: var(--light-blue);
 }
 a:visited {
     color: var(--light-blue);
