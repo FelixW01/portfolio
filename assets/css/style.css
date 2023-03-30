@@ -2,6 +2,7 @@
     --dark: #4D4D4D;
     --light-blue: #BAD7E9;
     --dark-blue: #146C94;
+    --black: black;
 }
 * {
     margin: 0;
@@ -38,7 +39,7 @@
     display: inline;
     margin: 25px 25px 20px 15px;
     font-size: 1.5em;
-    color: black;
+    color: var(--black);
     border-bottom: 3px solid var(--light-blue);
 }
 
@@ -51,7 +52,7 @@ a {
 }
 a:link {
     text-decoration: none !important;
-    color: black;
+    color: var(--black);
 }
 a:visited {
     color: var(--light-blue);
@@ -69,7 +70,7 @@ a:visited {
         justify-content: space-evenly;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     .header h1 {
         display: block;
         width: 100%;
@@ -121,11 +122,12 @@ a:visited {
 
 @media only screen and (max-width: 878px) {
     .top-img h2 {
-        right: 666px;
+        right: 668px;
+        bottom: 70px;
         font-size: 1em;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     .top-img h2 {
         right: 94px;
         bottom: 104px;
@@ -180,7 +182,7 @@ aside {
         display: none;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     .about-me {
         align-items: flex-start;
         margin: 0 0 0 25px;
@@ -231,8 +233,52 @@ aside {
     max-width: 98%;
     flex-shrink: 1;
 }
-.work h3 {
-    position: absolute
+.project-1 {
+    background-color: var(--light-blue);
+    color: var(--black);
+    display: inline-block;
+    position: absolute;
+    top: 238px;
+    left: 285px;
+}
+.project-1 span {
+    font-size: .75em;
+}
+.project-1 {
+    background-color: var(--light-blue);
+    color: var(--black);
+    display: inline-block;
+    position: absolute;
+    top: 238px;
+    left: 285px;
+}
+.project-2 span {
+    font-size: .75em;
+}
+.work div {
+    position: relative;
+    max-width: 48%;
+    display: inline;
+}
+
+.work div h3 {
+    position: absolute;
+    color: var(--black);
+}
+.project-1-text {
+    bottom: 230px;
+    left: 5px;
+    background-color: var(--light-blue);
+    padding: 10px;
+}
+.image-text {
+    background-color: var(--light-blue);
+    padding: 10px;
+    bottom: 96px;
+    left: 5px
+}
+.divider {
+    visibility: hidden;
 }
 @media only screen and (max-width: 1514px) {
     .work-img-2 {
@@ -242,6 +288,12 @@ aside {
     .work-img-1 {
         display: inline;
         max-width: 96%
+    }
+    .project-1-text {
+        bottom: 142px;
+    }
+    .image-text {
+        bottom: 75px;
     }
 }
 @media only screen and (max-width: 1009px) {
@@ -269,18 +321,36 @@ aside {
         border-bottom: 3px solid var(--dark-blue);
         margin-bottom: 30px;
     }
+    .project-1-text {
+        bottom: 231px;
+    }
+    .image-text {
+        bottom: 231px;
+    }
+    .divider {
+        visibility: visible;
+    }
 }
-@media only screen and (max-width: 390px) {
-    aside {
+@media only screen and (max-width: 420px) {
+    .work aside {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin: 0;
         padding: 0;
     }
     .work h1 {
         border-bottom: 3px solid var(--dark-blue);
         padding-right: 67%;
+    }
+    .work div {
+        max-width: 100%;
+    }
+    .project-1-text {
+        bottom: 102px;
+    }
+    .image-text {
+        bottom: 101px;
     }
 }
 /* Contact-me*/
@@ -327,7 +397,7 @@ aside {
         margin: 0 0 0 2.25em;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
     aside {
         display: flex;
         flex-direction: column;
@@ -351,4 +421,5 @@ aside {
 responsivity with flexbox and overflowing
 how do i do the text in front of the img
 should i use background img instead of img
+is the resume supposed to link to the contact-me
 */
