@@ -266,7 +266,7 @@ aside {
     color: var(--black);
 }
 .project-1-text {
-    bottom: 230px;
+    bottom: 179px;
     left: 5px;
     background-color: var(--light-blue);
     padding: 10px;
@@ -322,10 +322,10 @@ aside {
         margin-bottom: 30px;
     }
     .project-1-text {
-        bottom: 231px;
+        bottom: 200px;
     }
     .image-text {
-        bottom: 231px;
+        bottom: 240px;
     }
     .divider {
         visibility: visible;
@@ -347,10 +347,10 @@ aside {
         max-width: 100%;
     }
     .project-1-text {
-        bottom: 102px;
+        bottom: 82px;
     }
     .image-text {
-        bottom: 101px;
+        bottom: 102px;
     }
 }
 /* Contact-me*/
@@ -417,9 +417,3 @@ aside {
         margin: 36px 0 0 23px;
     }
 }
-/*Questions 
-responsivity with flexbox and overflowing
-how do i do the text in front of the img
-should i use background img instead of img
-is the resume supposed to link to the contact-me
-*/
