@@ -1,5 +1,5 @@
 # portfolio
-This application is a portfolio website designed to hold all the neccesary information for potential employers. The technologies that was used in this application was HTML and CSS. This project was created to eliminate the long and arduous process of getting all the individual information. This project was made to further understand the practice of website responsivity acheived by flexbox and media queries.
+This application is a portfolio website designed to hold all the neccesary information for potential employers. The technologies that was used for this application is HTML and CSS. This project was created to eliminate the long and arduous process of getting all the individual information. This project was made to further understand the practice of website responsivity acheived by flexbox and media queries.
 
 Application Link
 https://felixw01.github.io/portfolio/
