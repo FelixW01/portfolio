@@ -7,5 +7,3 @@ https://felixw01.github.io/portfolio/
 ![felixw01 github io_portfolio_](https://user-images.githubusercontent.com/90164142/236359816-0df74a2a-84fa-42e1-8afd-68244027b1ad.png)
 
 
-Credits
-- Work placeholders provided by -https://github.com/Xandromus (Horiseon)
