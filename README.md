@@ -4,7 +4,6 @@ This application is a portfolio website designed to hold all the neccesary infor
 Application Link
 https://felixw01.github.io/portfolio/
 
-![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/90164142/228954120-b880f18f-e571-46d8-b723-f49c65ab41fa.png)
+![felixw01 github io_portfolio_](https://user-images.githubusercontent.com/90164142/236359816-0df74a2a-84fa-42e1-8afd-68244027b1ad.png)
 
-Credits
-- Work placeholders provided by -https://github.com/Xandromus (Horiseon)
+
